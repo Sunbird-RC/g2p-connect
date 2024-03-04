@@ -1,0 +1,26 @@
+[
+  {
+    "farmer_id": "F-1",
+    "farmer_name": "Farmer-name-1",
+    "season": "2023-xyz",
+    "payment_status": "paid",
+    "payment_date": "2023-01-01",
+    "payment_amount": 400
+  },
+  {
+    "farmer_id": "F-2",
+    "farmer_name": "Farmer-name-2",
+    "season": "2023-xyz",
+    "payment_status": "paid",
+    "payment_date": "2023-01-01",
+    "payment_amount": 9000
+  },
+  {
+    "farmer_id": "F-3",
+    "farmer_name": "Farmer-name-3",
+    "season": "2023-xyz",
+    "payment_status": "unpaid",
+    "payment_date": "NA",
+    "payment_amount": 0
+  }
+]

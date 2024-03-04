@@ -1,0 +1,78 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
+spring.data.redis:
+  repositories.enabled: false
+  host: not_set
+  password: not_set
+  port: not_set
+
+crypto:
+  to_dc:
+    support_encryption: true
+    support_signature: true
+    password: not_set
+    key_path: not_set
+    id: not_set
+  from_dc:
+    support_encryption: true
+    support_signature: true
+    password: not_set
+    key_path: not_set
+
+client:
+  api_urls:
+    client_search_api: not_set
+    client_status_api: not_set
+
+keycloak:
+  from_dc:
+    url: not_set
+    clientId: not_set
+    clientSecret: not_set
+  dp:
+    url: not_set
+    username: not_set
+    password: cdpi@not_set
+    master:
+      url: not_set
+      getClientUrl: not_set
+      clientId: not_set
+      clientSecret: not_set
+    client:
+      url: not_set
+      realm: not_set
+      clientId: not_set
+      clientSecret: not_set
+
+sftp:
+  listener:
+    host: not_set
+    port: not_set
+    user: not_set
+    password: not_set
+    remote:
+      inbound_directory: not_set
+      outbound_directory: not_set
+    local:
+      inbound_directory: not_set
+      outbound_directory: not_set
+
+  dc:
+    host: not_set
+    port: not_set
+    user: not_set
+    password: not_set
+    remote:
+      outbound_directory: not_set
+
+sunbird:
+  api_urls:
+    msg_tracker_api: not_set
+    txn_tracker_api: not_set
+  elasticsearch:
+    host: not_set
+    port: not_set
+    scheme: not_set
